@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gelu Chișan – Projects</title>
+<meta name="description" content="Projects by Gelu Chișan, a self-taught developer from Botoșani, Romania: pigeon racing platforms, online tools, games and content sites.">
+<style>
+:root{--bg:#0f1419;--card:#182029;--line:#26313d;--text:#e6edf3;--muted:#9aa7b4;--accent:#4fb3ff;--accent2:#7ee0a1}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+header{padding:64px 20px 40px;text-align:center;background:radial-gradient(ellipse at top,#1d2a38,var(--bg) 70%)}
+header h1{margin:0 0 8px;font-size:clamp(2rem,5vw,3rem);letter-spacing:-.02em}
+header p{margin:0 auto;max-width:680px;color:var(--muted);font-size:1.05rem}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:24px}
+nav a{border:1px solid var(--line);border-radius:999px;padding:6px 14px;color:var(--text);font-size:.9rem}
+nav a:hover{border-color:var(--accent);text-decoration:none}
+main{max-width:1100px;margin:0 auto;padding:0 20px 60px}
+section{margin-top:44px}
+h2{font-size:1.4rem;margin:0 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column}
+.card:hover{border-color:#36506a}
+.card h3{margin:0 0 6px;font-size:1.08rem}
+.card p{margin:0 0 12px;color:var(--muted);font-size:.94rem;flex:1}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font-size:.88rem;background:#0f2233;border:1px solid #1e3a55;border-radius:6px;padding:3px 10px}
+.tag{display:inline-block;font-size:.72rem;color:var(--accent2);border:1px solid #2c5a3d;border-radius:4px;padding:0 6px;margin-left:6px;vertical-align:middle}
+footer{text-align:center;color:var(--muted);font-size:.9rem;padding:30px 20px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Gelu Chișan</h1>
+  <p>Self-taught developer from Botoșani, Romania. I build web platforms, mobile apps and tools, mostly for the pigeon racing community, plus a growing family of free online utilities and games.</p>
+  <nav>
+    <a href="#pigeon">🕊️ Pigeon racing</a>
+    <a href="#tools">🛠️ Online tools</a>
+    <a href="#games">🎮 Games</a>
+    <a href="#content">📰 Content</a>
+    <a href="#dev">💻 Developer tools</a>
+    <a href="https://github.com/gelubt5">GitHub</a>
+  </nav>
+</header>
+<main>
+
+<section id="pigeon">
+<h2>🕊️ Pigeon racing platforms</h2>
+<div class="grid">
+  <div class="card"><h3>Evidența Columbofilă</h3><p>My main project since 2017: a complete management platform for pigeon fanciers, with pigeon records, a pedigree generator (PDF/JPG export), competition results, breeding planning and health tracking. Laravel, SQLite, Vue.js.</p><div class="links"><a href="https://evidentacolumbofila.eu">evidentacolumbofila.eu</a></div></div>
+  <div class="card"><h3>xPigeon app <span class="tag">Android + web</span></h3><p>The companion app for Evidența Columbofilă, built with Expo / React Native: native pedigrees, a pair generator with inbreeding coefficient, a breeding calendar, a gene-based color calculator, sale ads, auctions, a 3D museum and 3D shop for pigeons, and an AI assistant.</p><div class="links"><a href="https://xpigeon.net">xpigeon.net</a><a href="https://play.google.com/store/apps/details?id=ro.evidentacolumbofila.mobil">Google Play</a></div></div>
+  <div class="card"><h3>Columba – Race map &amp; rankings</h3><p>A Romanian pigeon racing competition platform: live race map, live rankings by zone and center, marathon and extreme reports, Super AS Maraton and national palmares reports. PHP, SQLite, Leaflet.</p><div class="links"><a href="https://hartaconcurs.online">hartaconcurs.online</a></div></div>
+  <div class="card"><h3>Distanța app <span class="tag">Android</span></h3><p>An Android app for pigeon fanciers: distance calculations, GPS capture, fuel cost calculators and weather/wind forecasts (Open-Meteo). Published on Google Play.</p></div>
+  <div class="card"><h3>PigeonTag hardware</h3><p>Hardware R&amp;D for pigeon tracking: an nRF52832 BLE beacon, a GPS+LTE tracker based on nRF9161, and 3D-printable NFC leg rings, with PCBs designed in KiCad.</p></div>
+  <div class="card"><h3>Pigeon fanciers social network <span class="tag">planned</span></h3><p>A social network connected to Evidența Columbofilă. Members are grouped into leagues and series and are promoted or relegated by activity: giveaways, raffles, auctions and interviews with top breeders.</p></div>
+  <div class="card"><h3>Veterinary advisor &amp; shopping bots</h3><p>AI chatbots for bird keepers: a veterinary advisor built from veterinary product catalogs and the EU medicines database (doses with links to official sources), and a shopping assistant for buying pigeon products.</p></div>
+</div>
+</section>
+
+<section id="tools">
+<h2>🛠️ Online tools</h2>
+<div class="grid">
+  <div class="card"><h3>SEO &amp; Rank – Keyword Rank Checker</h3><p>Check where a website ranks in Google for any keyword, with an AI-powered SEO analysis that suggests keywords and improvements. Credit packs with free trial credits.</p><div class="links"><a href="https://seoandrank.online">seoandrank.online</a></div></div>
+  <div class="card"><h3>WebDir – Web Directory</h3><p>A curated web directory with paid listings that help website owners get discovered, built with safe, Google-friendly practices.</p><div class="links"><a href="https://webdir.online">webdir.online</a></div></div>
+  <div class="card"><h3>Distance calculator</h3><p>Straight-line and road distance between places, plus area, coordinates and other geo tools, and a pigeon flight plan page. Also packaged as an Android app.</p><div class="links"><a href="https://distanceto.biz">distanceto.biz</a></div></div>
+  <div class="card"><h3>What Is My IP</h3><p>Shows your public IPv4/IPv6 address and connection details, in English and Romanian.</p><div class="links"><a href="https://what-is-my-ip.biz">what-is-my-ip.biz</a></div></div>
+  <div class="card"><h3>SpinRandom</h3><p>A spin wheel combined with random-number, list and other random tools.</p><div class="links"><a href="https://spinrandom.online">spinrandom.online</a></div></div>
+  <div class="card"><h3>Word &amp; Letter Counter</h3><p>Counts words, letters, sentences and paragraphs, splits text into lines, counts occurrences of a word, and has undo/redo.</p></div>
+</div>
+</section>
+
+<section id="games">
+<h2>🎮 Games</h2>
+<div class="grid">
+  <div class="card"><h3>STOP@10</h3><p>Stop the watch as close to 10.00 seconds as you can! Several modes (including blind mode), daily tries, live matches against random opponents or friends, and leaderboards.</p><div class="links"><a href="https://stopat10.fun">stopat10.fun</a></div></div>
+  <div class="card"><h3>For Fun Games</h3><p>A games platform with one account for all games, plus friends, chat, XP and online matches. The first game is a daily word-guessing game where words are ranked by how close they are to the secret word.</p><div class="links"><a href="https://forfungames.live">forfungames.live</a></div></div>
+</div>
+</section>
+
+<section id="content">
+<h2>📰 Content sites</h2>
+<div class="grid">
+  <div class="card"><h3>What If?</h3><p>Articles answering the most interesting “what if” questions, in English and Romanian.</p><div class="links"><a href="https://whatif.ro">whatif.ro</a></div></div>
+  <div class="card"><h3>AI News</h3><p>An AI news site that gathers stories from RSS feeds and summarizes them automatically.</p><div class="links"><a href="https://ainews.xpigeon.net/wp/">ainews.xpigeon.net</a></div></div>
+</div>
+</section>
+
+<section id="dev">
+<h2>💻 Developer tools</h2>
+<div class="grid">
+  <div class="card"><h3>DSPluginIDE</h3><p>A web and native Android IDE for building DroidScript plugins: Monaco editor, Java compilation (ECJ), DEX conversion (D8) and AI assistance.</p><div class="links"><a href="https://ds-plugin-ide.online">ds-plugin-ide.online</a></div></div>
+</div>
+</section>
+
+</main>
+<footer>© Gelu Chișan · <a href="https://github.com/gelubt5">github.com/gelubt5</a></footer>
+</body>
+</html>
